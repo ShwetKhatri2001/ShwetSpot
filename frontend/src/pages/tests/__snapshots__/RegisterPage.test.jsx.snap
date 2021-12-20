@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterPage Component should match the snapshot 1`] = `
+<div
+  className="justify-content-center align-items-center container bg-light p-4"
+>
+  <h1>
+    Sign Up
+  </h1>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <input
+        className="form-control"
+        id="name"
+        onChange={[Function]}
+        placeholder="Enter name"
+        type="name"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="email"
+      >
+        Email Address
+      </label>
+      <input
+        className="form-control"
+        id="email"
+        onChange={[Function]}
+        placeholder="Enter email"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="password"
+        onChange={[Function]}
+        placeholder="Enter password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="confirmPassword"
+      >
+        Confirm Password
+      </label>
+      <input
+        className="form-control"
+        id="confirmPassword"
+        onChange={[Function]}
+        placeholder="Confirm password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-success"
+      disabled={false}
+      type="submit"
+    >
+      Register
+    </button>
+  </form>
+  <div
+    className="py-3 row"
+  >
+    <div
+      className="col"
+    >
+      Already have an account?
+       
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        Log in
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductEditPage Component should match the snapshot 1`] = `
+Array [
+  <a
+    className="btn btn-danger my-3"
+    href="/productlist"
+    onClick={[Function]}
+  >
+    Go Back
+  </a>,
+  <div
+    className="justify-content-center align-items-center container  bg-light p-5"
+  >
+    <h1>
+      Edit Product
+    </h1>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Enter name"
+          type="name"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="price"
+        >
+          Price
+        </label>
+        <input
+          className="form-control"
+          id="price"
+          onChange={[Function]}
+          placeholder="Enter price"
+          type="number"
+          value={0}
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="image"
+        >
+          Image
+        </label>
+        <input
+          className="form-control"
+          id="image"
+          onChange={[Function]}
+          placeholder="Enter image url"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="brand"
+        >
+          Brand
+        </label>
+        <input
+          className="form-control"
+          id="brand"
+          onChange={[Function]}
+          placeholder="Enter brand"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="countInStock"
+        >
+          Count In Stock
+        </label>
+        <input
+          className="form-control"
+          id="countInStock"
+          onChange={[Function]}
+          placeholder="Enter countInStock"
+          type="number"
+          value={0}
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="category"
+        >
+          Category
+        </label>
+        <input
+          className="form-control"
+          id="category"
+          onChange={[Function]}
+          placeholder="Enter category"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="description"
+        >
+          Description
+        </label>
+        <input
+          className="form-control"
+          id="description"
+          onChange={[Function]}
+          placeholder="Enter description"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-success"
+        disabled={false}
+        type="submit"
+      >
+        Update
+      </button>
+    </form>
+  </div>,
+]
+`;

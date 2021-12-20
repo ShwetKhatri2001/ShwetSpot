@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="@types/jest" level="application" />
+    <orderEntry type="library" name="@types/jest-image-snapshot" level="application" />
+    <orderEntry type="library" name="@types/redux-action" level="application" />
+    <orderEntry type="library" name="@types/redux-mock-store" level="application" />
+    <orderEntry type="library" name="@types/redux-pack" level="application" />
+    <orderEntry type="library" name="@types/redux-test-utils" level="application" />
+  </component>
+</module>

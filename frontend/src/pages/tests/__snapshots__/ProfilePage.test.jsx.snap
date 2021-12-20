@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePage Component should match the snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-3"
+  >
+    <h2>
+      My Profile
+    </h2>
+    <div
+      className="fade alert alert-success show"
+      role="alert"
+    >
+      Profile Updated
+    </div>
+    <div
+      className="mb-5 card"
+    >
+      <img
+        className="card-img-top"
+        id="profile-picture"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Name: 
+        </div>
+        <div
+          className="card-title h5"
+        >
+          Email: 
+        </div>
+        <div
+          className="card-title h5"
+        >
+          Credits: 
+        </div>
+        <button
+          className="btn btn-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          View my products
+        </button>
+      </div>
+    </div>
+    <h2>
+      Edit Profile
+    </h2>
+    <form
+      className="bg-light p-3"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Enter name"
+          type="name"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="email"
+        >
+          Email Address
+        </label>
+        <input
+          className="form-control"
+          id="email"
+          onChange={[Function]}
+          placeholder="Enter email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="image"
+        >
+          Add/Edit Profile Picture
+        </label>
+        <input
+          className="form-control"
+          id="image"
+          onChange={[Function]}
+          placeholder="Enter image url"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          className="form-control"
+          id="password"
+          onChange={[Function]}
+          placeholder="Enter password"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="confirmPassword"
+        >
+          Confirm Password
+        </label>
+        <input
+          className="form-control"
+          id="confirmPassword"
+          onChange={[Function]}
+          placeholder="Confirm password"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-success"
+        disabled={false}
+        type="submit"
+      >
+        Update
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-md-9"
+  >
+    <h2>
+      My Orders
+    </h2>
+    <table
+      className="table-sm bg-light table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            DATE
+          </th>
+          <th>
+            TOTAL
+          </th>
+          <th>
+            PAID
+          </th>
+          <th>
+            DELIVERED
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;

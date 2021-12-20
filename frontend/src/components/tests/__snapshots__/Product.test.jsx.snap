@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="mb-3 p-3 rounded h-auto card"
+  id="product"
+>
+  <a
+    href="/product/1"
+    onClick={[Function]}
+  >
+    <img
+      className="card-img-top"
+      src="/location/images/cat.png"
+    />
+  </a>
+  <div
+    className="card-body"
+  >
+    <a
+      href="/product/1"
+      onClick={[Function]}
+    >
+      <div
+        className="card-title"
+      >
+        <strong>
+          product
+        </strong>
+      </div>
+    </a>
+    <div
+      className="card-text"
+    >
+      <div
+        className="rating"
+      >
+        <span>
+          <i
+            className="fas fa-star"
+            style={
+              Object {
+                "color": "#4bbf73",
+              }
+            }
+          />
+        </span>
+        <span>
+          <i
+            className="fas fa-star"
+            style={
+              Object {
+                "color": "#4bbf73",
+              }
+            }
+          />
+        </span>
+        <span>
+          <i
+            className="fas fa-star"
+            style={
+              Object {
+                "color": "#4bbf73",
+              }
+            }
+          />
+        </span>
+        <span>
+          <i
+            className="fas fa-star"
+            style={
+              Object {
+                "color": "#4bbf73",
+              }
+            }
+          />
+        </span>
+        <span>
+          <i
+            className="fas fa-star"
+            style={
+              Object {
+                "color": "#4bbf73",
+              }
+            }
+          />
+        </span>
+        <span>
+          2 reviews
+        </span>
+      </div>
+    </div>
+    <h3
+      className="pb-0 card-text"
+    />
+    <h5
+      className="card-text"
+    >
+      credits
+    </h5>
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="rating"
+>
+  <span>
+    <i
+      className="far fa-star"
+      style={
+        Object {
+          "color": "#4bbf73",
+        }
+      }
+    />
+  </span>
+  <span>
+    <i
+      className="far fa-star"
+      style={
+        Object {
+          "color": "#4bbf73",
+        }
+      }
+    />
+  </span>
+  <span>
+    <i
+      className="far fa-star"
+      style={
+        Object {
+          "color": "#4bbf73",
+        }
+      }
+    />
+  </span>
+  <span>
+    <i
+      className="far fa-star"
+      style={
+        Object {
+          "color": "#4bbf73",
+        }
+      }
+    />
+  </span>
+  <span>
+    <i
+      className="far fa-star"
+      style={
+        Object {
+          "color": "#4bbf73",
+        }
+      }
+    />
+  </span>
+  <span />
+</div>
+`;

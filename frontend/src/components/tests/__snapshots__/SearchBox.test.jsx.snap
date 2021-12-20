@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<form
+  className="mx-auto d-inline-flex"
+  onSubmit={[Function]}
+>
+  <input
+    className="mt-3 form-control"
+    id="search-box"
+    name="q"
+    onChange={[Function]}
+    placeholder="Search Products..."
+    type="text"
+  />
+  <button
+    className="btn btn-success"
+    disabled={false}
+    id="search-box-btn"
+    type="submit"
+  >
+    Search
+  </button>
+</form>
+`;

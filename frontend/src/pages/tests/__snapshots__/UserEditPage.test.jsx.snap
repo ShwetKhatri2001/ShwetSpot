@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserEditPage Component should match the snapshot 1`] = `
+Array [
+  <a
+    className="btn btn-danger my-3"
+    href="/admin/userlist"
+    onClick={[Function]}
+  >
+    Go Back
+  </a>,
+  <div
+    className="justify-content-center align-items-center container bg-light p-4"
+  >
+    <h1>
+      Edit User
+    </h1>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Enter name"
+          type="name"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          className="form-label"
+          htmlFor="email"
+        >
+          Email Address
+        </label>
+        <input
+          className="form-control"
+          id="email"
+          onChange={[Function]}
+          placeholder="Enter email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <div
+          className="form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            id="isadmin"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="isadmin"
+            title=""
+          >
+            Is Admin
+          </label>
+        </div>
+      </div>
+      <button
+        className="btn btn-success"
+        disabled={false}
+        type="submit"
+      >
+        Update
+      </button>
+    </form>
+  </div>,
+]
+`;

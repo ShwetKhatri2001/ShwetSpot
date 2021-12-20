@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserListPage Component should match the snapshot 1`] = `
+Array [
+  <h1>
+    Users
+  </h1>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table-sm table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            NAME
+          </th>
+          <th>
+            EMAIL
+          </th>
+          <th>
+            ADMIN
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>,
+]
+`;

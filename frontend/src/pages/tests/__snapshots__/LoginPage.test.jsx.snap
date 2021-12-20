@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage Component should match the snapshot 1`] = `
+<div
+  className="justify-content-center align-items-center container bg-light p-4"
+>
+  <h1>
+    Sign In
+  </h1>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="email"
+      >
+        Email Address
+      </label>
+      <input
+        className="form-control"
+        id="email"
+        onChange={[Function]}
+        placeholder="Enter email"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="form-label"
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="password"
+        onChange={[Function]}
+        placeholder="Enter password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      className="btn btn-success"
+      disabled={false}
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <div
+    className="py-3 row"
+  >
+    <div
+      className="col"
+    >
+      Don't have an account?
+       
+      <a
+        href="/register"
+        onClick={[Function]}
+      >
+        Sign up
+      </a>
+    </div>
+  </div>
+</div>
+`;

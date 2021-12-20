@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductPage Component should match the snapshot 1`] = `
+Array [
+  <a
+    className="btn btn-danger my-3"
+    href="/"
+    onClick={[Function]}
+  >
+    Go Back
+  </a>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <img
+        className="img-fluid"
+      />
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <h3 />
+        </div>
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="rating"
+          >
+            <span>
+              <i
+                className="far fa-star"
+                style={
+                  Object {
+                    "color": "#4bbf73",
+                  }
+                }
+              />
+            </span>
+            <span>
+              <i
+                className="far fa-star"
+                style={
+                  Object {
+                    "color": "#4bbf73",
+                  }
+                }
+              />
+            </span>
+            <span>
+              <i
+                className="far fa-star"
+                style={
+                  Object {
+                    "color": "#4bbf73",
+                  }
+                }
+              />
+            </span>
+            <span>
+              <i
+                className="far fa-star"
+                style={
+                  Object {
+                    "color": "#4bbf73",
+                  }
+                }
+              />
+            </span>
+            <span>
+              <i
+                className="far fa-star"
+                style={
+                  Object {
+                    "color": "#4bbf73",
+                  }
+                }
+              />
+            </span>
+            <span>
+              undefined reviews
+            </span>
+          </div>
+        </div>
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          Description: 
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="list-group list-group-flush"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="mt-3 col"
+              >
+                Seller:
+              </div>
+              <div
+                className="col"
+              >
+                <img
+                  className="img-fluid"
+                  id="profile-picture-product"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                Price:
+              </div>
+              <div
+                className="col"
+              >
+                <strong>
+                   credits
+                </strong>
+              </div>
+            </div>
+          </div>
+          <div
+            className="list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col"
+              >
+                Status:
+              </div>
+              <div
+                className="col"
+              >
+                Out Of Stock
+              </div>
+            </div>
+          </div>
+          <div
+            className="list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            <button
+              className="btn-block btn btn-success"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <h2>
+        Reviews
+      </h2>
+      <div
+        className="fade alert alert-info show"
+        role="alert"
+      >
+        No Reviews
+      </div>
+      <div
+        className="list-group"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <h2>
+            Write a Review
+          </h2>
+          <div
+            className="fade alert alert-info show"
+            role="alert"
+          >
+            Please 
+            <a
+              href="/login"
+              onClick={[Function]}
+            >
+              sign in
+            </a>
+             to write a review
+             
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

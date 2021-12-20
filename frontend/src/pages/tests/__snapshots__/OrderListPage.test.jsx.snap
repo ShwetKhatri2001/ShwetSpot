@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderListPage Component should match the snapshot 1`] = `
+Array [
+  <h1>
+    Orders
+  </h1>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table-sm table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            USER
+          </th>
+          <th>
+            DATE
+          </th>
+          <th>
+            TOTAL
+          </th>
+          <th>
+            PAID
+          </th>
+          <th>
+            DELIVERED
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>,
+]
+`;

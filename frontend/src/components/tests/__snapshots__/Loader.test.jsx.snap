@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="spinner-border"
+  role="status"
+  style={
+    Object {
+      "color": "yellowgreen",
+      "display": "block",
+      "height": "100px",
+      "margin": "auto",
+      "width": "100px",
+    }
+  }
+>
+  <span
+    className="sr-only"
+  >
+    Loading...
+  </span>
+</div>
+`;

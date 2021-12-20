@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartPage Component should match the snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-8"
+  >
+    <h1>
+      Shopping Cart
+    </h1>
+    <div
+      className="fade alert alert-info show"
+      role="alert"
+    >
+      Your cart is empty 
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Go Back
+      </a>
+    </div>
+  </div>
+  <div
+    className="col-md-4"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="list-group list-group-flush"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <h2>
+            Subtotal (
+            0
+            ) items
+          </h2>
+          0.00
+           
+          credits
+        </div>
+        <div
+          className="list-group-item"
+          data-rb-event-key={null}
+          disabled={false}
+          onClick={[Function]}
+        >
+          <button
+            className="btn-block btn btn-success"
+            disabled={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Proceed To Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

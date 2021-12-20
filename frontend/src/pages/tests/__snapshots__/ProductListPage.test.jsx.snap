@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListPage Component should match the snapshot 1`] = `
+Array [
+  <div
+    className="w-75 m-auto"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          My products
+        </h1>
+      </div>
+      <div
+        className="text-right col"
+      >
+        <button
+          className="my-3 btn btn-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fas fa-plus"
+          />
+           SELL PRODUCT
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table-sm w-75 m-auto table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            PRODUCT ID
+          </th>
+          <th>
+            SELLER ID
+          </th>
+          <th>
+            NAME
+          </th>
+          <th>
+            PRICE
+          </th>
+          <th>
+            CATEGORY
+          </th>
+          <th>
+            BRAND
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>,
+]
+`;
