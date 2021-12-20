@@ -98,7 +98,6 @@ const ProfilePage = ({ history }) => {
               <Card.Body>
                 <Card.Title>Name: {user.name}</Card.Title>
                 <Card.Title>Email: {user.email}</Card.Title>
-                <Card.Title>Credits: {user.money}</Card.Title>
                 <Button
                   variant="success"
                   onClick={() => history.push('/productlist')}

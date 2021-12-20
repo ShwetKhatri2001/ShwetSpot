@@ -65,13 +65,11 @@ const PlaceOrderPage = ({ history }) => {
                 {cart.shippingAddress.country}
               </p>
             </ListGroup.Item>
-
             <ListGroup.Item>
               <h2>Payment Method</h2>
               <strong>Method: </strong>
               {cart.paymentMethod}
             </ListGroup.Item>
-
             <ListGroup.Item>
               <h2>Order Items</h2>
               {cart.cartItems.length === 0 ? (
@@ -96,8 +94,7 @@ const PlaceOrderPage = ({ history }) => {
                           </Link>
                         </Col>
                         <Col md={4}>
-                          {item.qty} x {item.price} = {item.qty * item.price}{' '}
-                          credits
+                          &#8377;{item.qty} x {item.price} = {item.qty * item.price}{' '}
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -116,30 +113,30 @@ const PlaceOrderPage = ({ history }) => {
               <ListGroup.Item>
                 <Row>
                   <Col>Items</Col>
-                  <Col>{cart.itemsPrice} credits</Col>
+                  <Col>&#8377;{cart.itemsPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Shipping</Col>
-                  <Col>{cart.shippingPrice} credits</Col>
+                  <Col>&#8377;{cart.shippingPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Tax</Col>
-                  <Col>{cart.taxPrice} credits</Col>
+                  <Col>&#8377;{cart.taxPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Total</Col>
-                  <Col>{cart.totalPrice} credits</Col>
+                  <Col>&#8377;{cart.totalPrice}</Col>
                 </Row>
               </ListGroup.Item>
               {error ? (
                 <ListGroup.Item>
-                  <Message variant="danger">{error}</Message>}
+                  <Message variant="danger">{error}</Message>
                 </ListGroup.Item>
               ) : null}
               <ListGroup.Item>

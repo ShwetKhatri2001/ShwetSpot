@@ -115,7 +115,7 @@ const ProductPage = ({ history, match }) => {
                     <Row>
                       <Col>Price:</Col>
                       <Col>
-                        <strong>{product.price} credits</strong>
+                        <strong>&#8377;{product.price}</strong>
                       </Col>
                     </Row>
                   </ListGroup.Item>

@@ -140,8 +140,7 @@ const OrderPage = ({ match, history }) => {
                           </Link>
                         </Col>
                         <Col md={4}>
-                          {item.qty} x {item.price} = {item.qty * item.price}{' '}
-                          credits
+                          &#8377;{item.qty} x {item.price} = {item.qty * item.price}{' '}
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -159,40 +158,34 @@ const OrderPage = ({ match, history }) => {
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
-                  <Col>Available Credits</Col>
-                  <Col>{addDecimals(user.money)} credits</Col>
-                </Row>
-              </ListGroup.Item>
-              <ListGroup.Item>
-                <Row>
                   <Col>Items</Col>
                   <Col>
+                    &#8377;
                     {addDecimals(
                       order.orderItems.reduce(
                         (acc, item) => acc + item.price * item.qty,
                         0
                       )
                     )}{' '}
-                    credits
                   </Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Shipping</Col>
-                  <Col>{order.shippingPrice} credits</Col>
+                  <Col>&#8377;{order.shippingPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Tax</Col>
-                  <Col>{order.taxPrice} credits</Col>
+                  <Col>&#8377;{order.taxPrice}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Row>
                   <Col>Total</Col>
-                  <Col>{order.totalPrice} credits</Col>
+                  <Col>&#8377;{order.totalPrice}</Col>
                 </Row>
               </ListGroup.Item>
               {loadingPay && <Loader />}
@@ -214,7 +207,7 @@ const OrderPage = ({ match, history }) => {
                     disabled
                     className="btn btn-block alert"
                   >
-                    Not enough credits
+                    Not enough money
                   </Button>
                 </ListGroup.Item>
               ) : (

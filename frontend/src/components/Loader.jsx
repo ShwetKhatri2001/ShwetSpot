@@ -11,7 +11,7 @@ const Loader = () => {
         height: '100px',
         margin: 'auto',
         display: 'block',
-        color: 'yellowgreen',
+        color: 'rgb(18, 219, 169)',
       }}
     >
       <span className="sr-only">Loading...</span>

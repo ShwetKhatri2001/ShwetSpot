@@ -121,7 +121,7 @@ const ProductListPage = ({ history }) => {
                   <td>{product._id}</td>
                   <td>{product.user}</td>
                   <td>{product.name}</td>
-                  <td>${product.price}</td>
+                  <td> &#8377;{product.price}</td>
                   <td>{product.category}</td>
                   <td>{product.brand}</td>
                   <td className="text-center pl-0 pr-0 mt-0">

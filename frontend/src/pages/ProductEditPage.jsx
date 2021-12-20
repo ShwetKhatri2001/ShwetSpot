@@ -165,7 +165,6 @@ const ProductEditPage = ({ match, history }) => {
                 onChange={e => setDescription(e.target.value)}
               />
             </Form.Group>
-
             <Button type="submit" variant="success">
               Update
             </Button>
